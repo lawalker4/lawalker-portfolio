@@ -114,7 +114,7 @@ footer {
         }
 
      .main {
-        font-size: 28px;
+        font-size: 22px;
         border-bottom: 3px solid;
         color: #024e76;
         padding-bottom: 80px;
@@ -125,7 +125,7 @@ footer {
 
      .main img {
         width: 15%;
-        width: 45%;
+        width: 30%;
      }
 
      
@@ -134,7 +134,7 @@ footer {
       /* My Work style section*/
 
       .work {
-        font-size: 28px;
+        font-size: 30px;
         border-bottom: 3px solid;
         color: #024e76;
         padding-bottom: 80px;
@@ -144,8 +144,8 @@ footer {
      } 
 
      .work img {
-        width: 15%;
-        width: 45%;
+        width: 25%;
+        width: 50%;
      }
 
       /*Contact Me style section */
