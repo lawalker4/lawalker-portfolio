@@ -148,12 +148,6 @@ section.two-col-row p {
     text-align: center;
 }
 
-section.two-col-row h3 {
-    font-size: 15x;
-    margin: auto;
-    text-align: center;
-
-}
 
 /* About Me style section ends*/
 
@@ -162,10 +156,9 @@ section.two-col-row h3 {
 
 div.work-img {
     padding: 10%;
-    flex: 0 0 300px;
+    display: flex;
     flex-flow: column nowrap;
-    min-width: 200px;
-    width: 100px;
+    align-items: stretch;
     
   }
 
