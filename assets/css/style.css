@@ -14,7 +14,7 @@ body {
 header {
   width: 100%;
   padding: 20px 35px;
-  background-image: url('../css/blue-ridge.jpg');
+  background-image: url("./blue-ridge.jpg");
   background-attachment: fixed;
   background-size:cover;
   color: #ffeb66;
@@ -74,7 +74,7 @@ header nav ul li a:hover {
 /*Style of Footer*/
 
 footer {
-    background: #ffeb66;
+    background: rgba(240, 218, 98, 0.829);
     width: 100%;
     padding: 40px 35px;
     float: right;
@@ -101,120 +101,85 @@ footer span {
   background-position: 80%;
   display: flex;
   flex:auto;
+  
+}
+.hero h2 {
   font-family: Georgia;
-  font-size: 11px;
+  font-size: 16px;
   font-style: italic;
   color: #024e76;
+  font-size: 18px;
+  margin: auto;
+  text-align: center;
+  
 }
 
 /*hero style ends*/
 
 /* main style section*/
 
-.section-title {
-  font-size: 48px;
-  border-bottom: 3px solid;
+section.two-col-row {
+  font-size: 20px;
+  border: 1px solid;
   color: #024e76;
-  padding-bottom: 20px;
-  margin: 0 auto 35px auto;
-  width: 50%;
-  flex-wrap: nowrap;
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: flex-start;
-
-}
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
- }
-
-.main {
-  font-size: 22px;
-  border-bottom: 3px solid;
-  color: #024e76;
-  padding-bottom: 80px;
   text-align: center;
-  flex: 1;
+  
 }
+section.two-col-row > h2 {
+    width:20%;
+    text-align: right;
+}
+ 
 
-.main img {
-  width: 15%;
-  width: 30%;
+section.two-col-row img {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 250px;
+  }
+
+ 
+section.two-col-row p {
+    font-size: 15x;
+    margin: auto;
+    text-align: center;
 }
 
 /* About Me style section ends*/
 
 /* My Work style section*/
 
-.main-work {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.work {
-  margin: 20px;
-  font-size: 30px;
-  border-bottom: 3px solid;
-  padding-bottom: 80px;
-  
-}
-.work img {
-  width: 50%;
-}
-
-.projects {
-  line-height: 1.3;
-  font-size: 28px;
-  text-align: center;
-
-}
-
-.projects h3 {
-    font-size: 28px;
-    text-align: center;
+div.work-img {
+    display: flex;
+    flex-flow: column nowrap;
+    width: auto;
   }
-  
-  .projects h4 {
-    font-weight: lighter;
-    font-size: 28px;
-    margin-bottom: 15px;
-    text-align: center;
+
+  div.work-img > div.row {
+    display: flex;
+    flex-flow: row nowrap;
   }
-  
 
 
 /*Contact Me style section */
-.contact h3 {
-  font-weight: bold;
-  font-size: 28px;
-  color: #fce138;
-  margin: 0 30px;
-  display: inline;
-}
-.contact a,li {
-  text-decoration: none;
-  color: #fce138;
-  font-size: 22px;
-}
-
-.contact nav {
-  float: right;
-  margin: 7px 0;
-}
-
-.contact nav ul li a {
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 22px;
-}
-
-.contact nav ul li {
-  display: inline;
-}
+ 
+.info {
+    margin: 7px 0;
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: right;
+    list-style: none;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fce138;
+  }
+   
 
 /*Contact Me style end*/
 
