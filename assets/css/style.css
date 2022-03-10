@@ -1,62 +1,75 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    font-family: Cambria;
-    background-color: rgb(165, 164, 175);
-  }
+  font-family: Cambria;
+  background-color: rgb(165, 164, 175);
+}
 
- /* apply styles to <header> */
+/* apply styles to <header> */
 
 header {
-    width: 100%;
-    padding: 20px 35px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    color: #ffeb66;
-       }
+  width: 100%;
+  padding: 20px 35px;
+  background-image: url('../css/blue-ridge.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+  color: #ffeb66;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-         }
-      
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+
 header a {
-        text-decoration: none;
-        color: #fce138;
-      }
+  text-decoration: none;
+  color: #fce138;
+}
 
 header nav {
-    float: right;
-    margin: 7px 0;
-  }
+  margin: 7px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-      } 
-      
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
 header nav ul li {
-    display: inline;
-    
-  }
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 header nav ul li a:hover {
   background: #fce138;
   color: #024e76;
   border-radius: 15px;
   text-shadow: none;
-  }
+}
 
-/*End of <head>*/
+/*End of Header Style*/
 
 /*Style of Footer*/
 
@@ -68,114 +81,148 @@ footer {
     line-height: 1.5;
     text-align: right;
     font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: gray
-    
-    
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: gray;
+}
+
+footer span {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+/* apply styles to hero*/
+
+.hero {
+  background-image: url("./blue-ridge.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 275px;
+  background-attachment: fixed;
+  background-position: 80%;
+  display: flex;
+  flex:auto;
+  font-family: Georgia;
+  font-size: 11px;
+  font-style: italic;
+  color: #024e76;
+}
+
+/*hero style ends*/
+
+/* main style section*/
+
+.section-title {
+  font-size: 48px;
+  border-bottom: 3px solid;
+  color: #024e76;
+  padding-bottom: 20px;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+
+}
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+ }
+
+.main {
+  font-size: 22px;
+  border-bottom: 3px solid;
+  color: #024e76;
+  padding-bottom: 80px;
+  text-align: center;
+  flex: 1;
+}
+
+.main img {
+  width: 15%;
+  width: 30%;
+}
+
+/* About Me style section ends*/
+
+/* My Work style section*/
+
+.main-work {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work {
+  margin: 20px;
+  font-size: 30px;
+  border-bottom: 3px solid;
+  padding-bottom: 80px;
+  
+}
+.work img {
+  width: 50%;
+}
+
+.projects {
+  line-height: 1.3;
+  font-size: 28px;
+  text-align: center;
+
+}
+
+.projects h3 {
+    font-size: 28px;
+    text-align: center;
   }
   
-  /* apply styles to hero*/
+  .projects h4 {
+    font-weight: lighter;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
 
-   .hero {
-        background-image: url('./blue-ridge.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 275px;
-        align-items: flex-start;
-        background-attachment: fixed;
-        background-position: 80%;
-        flex: right;
-        text-align: right;
-        font-family:Georgia;
-        font-size: 11px;
-        font-style: italic;
-        color: #024e76    
-      } 
 
-    /*hero style ends*/
-
-    /* main style section*/
-
-    .section-title {
-        font-size: 48px;
-        border-bottom: 3px solid;
-        color: #024e76;
-        padding-bottom: 20px;
-        text-align: center;
-        margin: 0 auto 35px auto;
-        width: 50%;
-    }
-        .primary-border {
-        border-color: #fce138;
-            }
-
-        .secondary-border {
-        border-color: #39a6b2;
-        }
-
-     .main {
-        font-size: 22px;
-        border-bottom: 3px solid;
-        color: #024e76;
-        padding-bottom: 80px;
-        text-align: center;
-        flex: 1;
-        flex-direction: column;
-     }
-
-     .main img {
-        width: 15%;
-        width: 30%;
-     }
-
-     
-      /* About Me style section ends*/
-
-      /* My Work style section*/
-
-      .work {
-        font-size: 30px;
-        border-bottom: 3px solid;
-        color: #024e76;
-        padding-bottom: 80px;
-        text-align: center;
-        flex: 1;
-        flex-direction: column;
-     } 
-
-     .work img {
-        width: 25%;
-        width: 50%;
-     }
-
-      /*Contact Me style section */
-      .contact h3 {
-        font-weight: bold;
-        font-size: 28px;
-        color: #fce138;
-        margin: 0 30px;
-        display: inline;   
-      }
-      .contact a, li{
-        text-decoration: none;
-        color: #fce138;
-        font-size: 22px;
-      }
+/*Contact Me style section */
+.contact h3 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #fce138;
+  margin: 0 30px;
+  display: inline;
+}
+.contact a,li {
+  text-decoration: none;
+  color: #fce138;
+  font-size: 22px;
+}
 
 .contact nav {
-    float: right;
-    margin: 7px 0;
-  }
+  float: right;
+  margin: 7px 0;
+}
 
 .contact nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-      } 
-      
-.contact nav ul li {
-    display: inline;
-    
-  }
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
 
-   
+.contact nav ul li {
+  display: inline;
+}
+
+/*Contact Me style end*/
+
+/* FLEX */
+.flex-row {
+    text-align: left;
+}
+
+/*media quarties style starts*/
+
+
