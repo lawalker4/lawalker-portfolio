@@ -6,7 +6,7 @@
 
 body {
   font-family: Cambria;
-  background-color: rgb(165, 164, 175);
+  background-color: rgb(229, 229, 231);
 }
 
 /* apply styles to <header> */
@@ -31,14 +31,14 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: #fce138;
+  color: navy;
   margin: 0;
-  display: inline;
+  display:inline;
 }
 
 header a {
   text-decoration: none;
-  color: #fce138;
+  color: navy;
 }
 
 header nav {
@@ -114,6 +114,7 @@ footer span {
   
 }
 
+
 /*hero style ends*/
 
 /* main style section*/
@@ -121,11 +122,11 @@ footer span {
 section.two-col-row {
   font-size: 20px;
   border: 1px solid;
-  color: #024e76;
+  color: navy;
   display: flex;
-  flex-flow: row nowrap;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 20px;
+  padding: auto;
   text-align: center;
   
 }
@@ -133,7 +134,19 @@ section.two-col-row > h2 {
     width:20%;
     text-align: right;
 }
- 
+
+.photo {
+  width: 500px;
+}
+
+.images {
+  width: 100px;
+}
+
+.pictures {
+  width: 100px;
+}
+
 
 section.two-col-row img {
     display: flex;
@@ -144,7 +157,6 @@ section.two-col-row img {
  
 section.two-col-row p {
     font-size: 15x;
-    margin: auto;
     text-align: center;
 }
 
@@ -156,9 +168,9 @@ section.two-col-row p {
 
 div.work-img {
     padding: 10%;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: stretch;
+    display: inline-flex;
+    flex-wrap: wrap;
+   align-items: stretch;
     
   }
 
@@ -170,20 +182,28 @@ div.work-img {
 
 /*Contact Me style section */
  
-.info {
-    margin: 7px 0;
-    display: inline;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: right;
-    list-style: none;
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 18px;
-    text-decoration: none;
-    color: #fce138;
+
+  .info {
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    background-color: #7d7d7d;
+    color: navy;
+    font-weight: bold;
   }
-   
+  
+  .info2 {
+    justify-content: space-around;
+  }
+  
+  .info3 {
+    justify-content: space-between;
+  }
+
+
+  
+ 
+  
 
 /*Contact Me style end*/
 
