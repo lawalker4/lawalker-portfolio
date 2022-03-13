@@ -14,16 +14,16 @@ body {
 header {
   width: 100%;
   padding: 20px 35px;
-  background-image: url("./blue-ridge.jpg");
+  /* background-image: url("./blue-ridge.jpg");
   background-attachment: fixed;
-  background-size:cover;
+  background-size:cover; */
   color:rgb(229, 229, 231);
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky;
+  position: sticky; */
   top: 0;
   z-index: 9999;
 }
@@ -63,7 +63,7 @@ header nav ul li {
 }
 
 header nav ul li a:hover {
-  background: #fce138;
+  background: white;
   color: #024e76;
   border-radius: 15px;
   text-shadow: none;
@@ -74,15 +74,16 @@ header nav ul li a:hover {
 /*Style of Footer*/
 
 footer {
-    background: rgba(240, 218, 98, 0.829);
+    color:rgb(229, 229, 231);
     width: 100%;
     padding: 20px 20px;
     float: right;
     line-height: 1px;
     text-align: right;
     font-weight: bold;
+    font-style: italic;
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: gray;
+    color: navy;
 }
 
 footer span {
@@ -134,12 +135,6 @@ section.two-col-row {
     
 }
 
-/* section.two-col-row > h2 {
-    width:20%;
-    text-align: right;
-    flex-basis: 10%;
-} */
-
 /* About Me Styleing*/
 
 .firstinfo {
@@ -154,12 +149,12 @@ section.two-col-row {
  
 } 
 
-.firstinfo p {
+/* .firstinfo p {
   text-align: top;
-}
+} */
 
 .second {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   text-align: center;  
   background-image:url("./Horiseon.PNG");
@@ -172,16 +167,17 @@ section.two-col-row {
   flex-basis: 70%;
   margin: 5%;
   padding: 10%;
+  opacity: 75%;
   }
 
 .second a {
-  color: white;/* CSS link color (red) */
+  color: black;/* CSS link color (red) */
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .second a:hover {
-  color:yellow;
+  color:gainsboro
 }
 
  .main-image {
@@ -191,113 +187,97 @@ section.two-col-row {
   flex-basis: auto;
 }  
 
+.projectcontainer {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:16px;
+  width: 100%;
+  opacity: 75%;
+}
+
 .third {
-  font-size: 25px;
-  color: white;
+  font-size: 20px;
+  color: navy;
   text-align: center;  
   background-image:url("./run-buddy.jpg");
   background-size: cover;
   /* background-position:right; */
-  height: 50%;
-  width: 50%;
-  background-attachment:local;
-  /* background-position: 50%; */
-   display: flex; 
-  /* flex-basis: 70%;  */
-  margin: 5%;
-  padding: 5%;
+  height: 200px;
+  width: 100%;
  
-}
+  }
 .third a {
   color: white;/* CSS link color (red) */
-  font-weight: bold;
-  font-size: 35px;
+  /* font-weight: bold; */
+  font-size: 25px;
 }
 
 .third a:hover {
-  color:yellow;
+  color:navy;
 }
 
 .fourth {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   text-align: center;  
   background-image:url("./plant1.jpg");
   background-size: cover;
   /* background-position:right; */
-  height: 50%;
-  width: 50%;
-  background-attachment:local;
-  /* background-position: 50%; */
-   display: flex; 
-  /* flex-basis: 70%;  */
-  margin: 5%;
-  padding: 5%;
- 
+  height: 200px;
+  width: 100%;
+  
 }
 
 .fourth a {
-  color: white;/* CSS link color (red) */
+  color: black;/* CSS link color (red) */
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .fourth a:hover {
-  color:yellow;
+  color:white;
 }
 
 .fifth {
-  font-size: 25px;
-  color: white;
+  font-size: 20px;
+  color: navy;
   text-align: center;  
   background-image:url("./plant2.jpg");
   background-size: cover;
   /* background-position:right; */
-  height: 50%;
-  width: 50%;
-  background-attachment:local;
-  /* background-position: 50%; */
-   display: flex; 
-  /* flex-basis: 70%;  */
-  margin: 5%;
-  padding: 5%;
- 
+  height: 200px;
+  width: 100%;
+  
 }
 .fifth a {
-  color: white;/* CSS link color (red) */
+  color: black;/* CSS link color (red) */
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .fifth a:hover {
-  color:yellow;
+  color:white;
 }
 
 .sixth {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   text-align: center;  
   background-image:url("./plants3.jpg");
   background-size: cover;
   /* background-position:right; */
-  height: 50%;
-  width: 50%;
-  background-attachment:local;
-  /* background-position: 50%; */
-   display: flex; 
-  /* flex-basis: 70%;  */
-  margin: 5%;
-  padding: 5%;
- 
+  height: 200px;
+  width: 100%;
+  
 }
 .sixth a {
   color: white;/* CSS link color (red) */
-  font-weight: bold;
-  font-size: 35px;
+  /* font-weight: bold; */
+  font-size: 25px;
 }
 
 .sixth a:hover {
-  color:yellow;
+  color:navy;
 }
 
 
@@ -325,7 +305,7 @@ section.two-col-row {
     }
     
   .info a:hover {
-      color:yellow;
+      color:blue;
     }
   
 
@@ -339,4 +319,147 @@ section.two-col-row {
 
 /*media quarties style starts*/
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero, .hero a {
+    width: 100%;
+    text-align: center;
+  }
+  
+  section.two-col-row {
+    width: 80%;
+    text-align: center; 
+  }
+  }
+
+  .main {
+    width: 80%;
+    text-align: center; 
+  }
+    
+  section.two-col-row.info {
+    width: 100%; 
+    text-align: center;  } 
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .hero, .hero a {
+      width: 100%;
+      text-align: center;
+    }
+    
+    section.two-col-row {
+      width: 80%;
+      text-align: center; 
+    }
+      
+    .main {
+      width: 80%;
+      text-align: center; 
+    }
+      
+    section.two-col-row.info {
+      width: 100%; 
+      text-align: center;  } 
+  
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .hero, .hero a {
+      width: 100%;
+      text-align: center;
+    }
+    
+    section.two-col-row {
+      width: 80%;
+      text-align: center; 
+    }
+    }
+  
+    .main {
+      width: 80%;
+      text-align: center; 
+    }
+      
+    section.two-col-row.info {
+      width: 100%; 
+      text-align: center;  } 
+  
+  }
 
