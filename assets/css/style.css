@@ -14,9 +14,9 @@ body {
 header {
   width: 100%;
   padding: 20px 35px;
-  /* background-image: url("./blue-ridge.jpg");
+  background-image: url("./blue-ridge.jpg");
   background-attachment: fixed;
-  background-size:cover; */
+  background-size:cover;
   color:rgb(229, 229, 231);
   display: flex;
   justify-content: space-between;
