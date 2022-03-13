@@ -17,7 +17,7 @@ header {
   background-image: url("./blue-ridge.jpg");
   background-attachment: fixed;
   background-size:cover;
-  color: #ffeb66;
+  color:rgb(229, 229, 231);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,9 +76,9 @@ header nav ul li a:hover {
 footer {
     background: rgba(240, 218, 98, 0.829);
     width: 100%;
-    padding: 40px 35px;
+    padding: 20px 20px;
     float: right;
-    line-height: 1.5;
+    line-height: 1px;
     text-align: right;
     font-weight: bold;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -86,7 +86,7 @@ footer {
 }
 
 footer span {
-  line-height: 1.5;
+  line-height: 1px;
   font-size: 15px;
 }
 
@@ -113,101 +113,226 @@ footer span {
   text-align: center;
   
 }
-
-
 /*hero style ends*/
+
+main {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+}
+
 
 /* main style section*/
 
 section.two-col-row {
   font-size: 20px;
-  border: 1px solid;
   color: navy;
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
-  justify-content: flex-start;
-  padding: auto;
-  text-align: center;
-  
+  justify-content: space-between; 
+  flex-basis: 50%;
+    
 }
-section.two-col-row > h2 {
+
+/* section.two-col-row > h2 {
     width:20%;
     text-align: right;
+    flex-basis: 10%;
+} */
+
+/* About Me Styleing*/
+
+.firstinfo {
+  display:flex;
+  flex-direction: column;
+  flex-basis: 70%;
 }
 
 .photo {
-  width: 500px;
-}
-
-.images {
-  width: 100px;
-}
-
-.pictures {
-  width: 100px;
-}
-
-
-section.two-col-row img {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 250px;
-  }
-
+  width: 250px;
+  text-align: center;
  
-section.two-col-row p {
-    font-size: 15x;
-    text-align: center;
+} 
+
+.firstinfo p {
+  text-align: top;
 }
 
-
-/* About Me style section ends*/
-
-/* My Work style section*/
-
-
-div.work-img {
-    padding: 10%;
-    display: inline-flex;
-    flex-wrap: wrap;
-   align-items: stretch;
-    
+.second {
+  font-size: 25px;
+  color: white;
+  text-align: center;  
+  background-image:url("./Horiseon.PNG");
+  background-size: cover;
+  background-position: center;
+  height: 275px;
+  background-attachment:local;
+  background-position: 90%;
+  display: flex; 
+  flex-basis: 70%;
+  margin: 5%;
+  padding: 10%;
   }
 
-  div.work-img > div.row {
-    display: flex;
-    flex-flow: row nowrap;
-  }
+.second a {
+  color: white;/* CSS link color (red) */
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.second a:hover {
+  color:yellow;
+}
+
+ .main-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}  
+
+.third {
+  font-size: 25px;
+  color: white;
+  text-align: center;  
+  background-image:url("./run-buddy.jpg");
+  background-size: cover;
+  /* background-position:right; */
+  height: 50%;
+  width: 50%;
+  background-attachment:local;
+  /* background-position: 50%; */
+   display: flex; 
+  /* flex-basis: 70%;  */
+  margin: 5%;
+  padding: 5%;
+ 
+}
+.third a {
+  color: white;/* CSS link color (red) */
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.third a:hover {
+  color:yellow;
+}
+
+.fourth {
+  font-size: 25px;
+  color: white;
+  text-align: center;  
+  background-image:url("./plant1.jpg");
+  background-size: cover;
+  /* background-position:right; */
+  height: 50%;
+  width: 50%;
+  background-attachment:local;
+  /* background-position: 50%; */
+   display: flex; 
+  /* flex-basis: 70%;  */
+  margin: 5%;
+  padding: 5%;
+ 
+}
+
+.fourth a {
+  color: white;/* CSS link color (red) */
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.fourth a:hover {
+  color:yellow;
+}
+
+.fifth {
+  font-size: 25px;
+  color: white;
+  text-align: center;  
+  background-image:url("./plant2.jpg");
+  background-size: cover;
+  /* background-position:right; */
+  height: 50%;
+  width: 50%;
+  background-attachment:local;
+  /* background-position: 50%; */
+   display: flex; 
+  /* flex-basis: 70%;  */
+  margin: 5%;
+  padding: 5%;
+ 
+}
+.fifth a {
+  color: white;/* CSS link color (red) */
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.fifth a:hover {
+  color:yellow;
+}
+
+.sixth {
+  font-size: 25px;
+  color: white;
+  text-align: center;  
+  background-image:url("./plants3.jpg");
+  background-size: cover;
+  /* background-position:right; */
+  height: 50%;
+  width: 50%;
+  background-attachment:local;
+  /* background-position: 50%; */
+   display: flex; 
+  /* flex-basis: 70%;  */
+  margin: 5%;
+  padding: 5%;
+ 
+}
+.sixth a {
+  color: white;/* CSS link color (red) */
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.sixth a:hover {
+  color:yellow;
+}
 
 
 /*Contact Me style section */
  
 
-  .info {
+  section.col-two-row.info {
     display: flex;
     font-size: 15px;
     text-align: center;
-    background-color: #7d7d7d;
+    background-color: rgb(229, 229, 231);
     color: navy;
+    font-weight:bold;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    flex-basis: 70%;
     font-weight: bold;
-  }
-  
-  .info2 {
-    justify-content: space-around;
-  }
-  
-  .info3 {
-    justify-content: space-between;
-  }
+    }
 
-
-  
- 
+  .info a {
+      color: navy;/* CSS link color (red) */
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+  .info a:hover {
+      color:yellow;
+    }
   
 
-/*Contact Me style end*/
+  
+ /*Contact Me style end*/
 
-/* FLEX */
+ FLEX
 .flex-row {
     text-align: left;
 }
