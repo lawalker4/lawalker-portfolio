@@ -284,17 +284,11 @@ section.two-col-row {
   font-size: 20px;
   color: white;
   text-align: center;  
-  background-image:url("./assets/css/images/fullstackprojects.png");
+  background-image:url("C:\urcoding\projects\lawalker-portfolio\assets\images\fullstackproject.png");
   background-size: cover;
-  background-position: center;
-  height: 275px;
-  background-attachment:local;
-  background-position: 90%;
-  display: flex; 
-  flex-basis: 70%;
-  margin: 5%;
-  padding: 10%;
-  opacity: 75%;
+  /* background-position:right; */
+  height: 200px;
+  width: 100%;
   }
 
 .fullstack a {
