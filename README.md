@@ -4,7 +4,6 @@
 
 ## Table of Contents
 - [Description](#description)
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Creators](#Creators)
@@ -17,7 +16,7 @@ Welcome to Laura Ashley Walkers portfolio. This is my first ever computer progra
 
 ---
 
-### Criteria
+## Criteria
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
