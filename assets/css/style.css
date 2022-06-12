@@ -284,20 +284,26 @@ section.two-col-row {
   font-size: 20px;
   color: white;
   text-align: center;  
-  background-image:url("C:\urcoding\projects\lawalker-portfolio\assets\images\fullstackproject");
+  background-image:url("./Horiseon.PNG");
   background-size: cover;
-  /* background-position:right; */
-  height: 200px;
-  width: 100%;
+  background-position: center;
+  height: 275px;
+  background-attachment:local;
+  background-position: 90%;
+  display: flex; 
+  flex-basis: 70%;
+  margin: 5%;
+  padding: 10%;
+  opacity: 75%;
   }
 
-.fullstack a {
+.second a {
   color: black;/* CSS link color (red) */
   font-weight: bold;
   font-size: 25px;
 }
 
-.fullstack a:hover {
+.second a:hover {
   color:gainsboro
 }
 
