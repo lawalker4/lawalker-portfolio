@@ -280,27 +280,6 @@ section.two-col-row {
   color:navy;
 }
 
-.seventh {
-  font-size: 20px;
-  color: navy;
-  text-align: center;  
-  background-image:url("./FullStackProject.PNG");
-  background-size: cover;
-  /* background-position:right; */
-  height: 200px;
-  width: 100%;
- 
-  }
-.seventh a {
-  color: white;/* CSS link color (red) */
-  /* font-weight: bold; */
-  font-size: 25px;
-}
-
-.seventh a:hover {
-  color:navy;
-}
-
 /*Contact Me style section */
  
 
