@@ -280,7 +280,7 @@ section.two-col-row {
   color:navy;
 }
 
-.third {
+.seventh {
   font-size: 20px;
   color: navy;
   text-align: center;  
@@ -291,13 +291,13 @@ section.two-col-row {
   width: 100%;
  
   }
-.third a {
+.seventh a {
   color: white;/* CSS link color (red) */
   /* font-weight: bold; */
   font-size: 25px;
 }
 
-.third a:hover {
+.seventh a:hover {
   color:navy;
 }
 
