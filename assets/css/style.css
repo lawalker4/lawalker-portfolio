@@ -280,25 +280,31 @@ section.two-col-row {
   color:navy;
 }
 
-.seventh {
+.fullstack {
   font-size: 20px;
-  color: navy;
+  color: white;
   text-align: center;  
-  background-image:url("./FullStackProject.PNG");
+  background-image:url("./assets/css/images/fullstackprojects.png");
   background-size: cover;
-  /* background-position:right; */
-  height: 200px;
-  width: 100%;
- 
+  background-position: center;
+  height: 275px;
+  background-attachment:local;
+  background-position: 90%;
+  display: flex; 
+  flex-basis: 70%;
+  margin: 5%;
+  padding: 10%;
+  opacity: 75%;
   }
-.seventh a {
-  color: white;/* CSS link color (red) */
-  /* font-weight: bold; */
+
+.fullstack a {
+  color: black;/* CSS link color (red) */
+  font-weight: bold;
   font-size: 25px;
 }
 
-.seventh a:hover {
-  color:navy;
+.fullstack a:hover {
+  color:gainsboro
 }
 
 /*Contact Me style section */
