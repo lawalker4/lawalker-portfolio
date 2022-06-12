@@ -242,7 +242,7 @@ section.two-col-row {
   font-size: 20px;
   color: navy;
   text-align: center;  
-  background-image:url("./fullstackproject.PNG");
+  background-image:url("./plant2.jpg");
   background-size: cover;
   /* background-position:right; */
   height: 200px;
@@ -277,6 +277,27 @@ section.two-col-row {
 }
 
 .sixth a:hover {
+  color:navy;
+}
+
+.seventh {
+  font-size: 20px;
+  color: navy;
+  text-align: center;  
+  background-image:url("./FullStackProject.PNG");
+  background-size: cover;
+  /* background-position:right; */
+  height: 200px;
+  width: 100%;
+ 
+  }
+.seventh a {
+  color: white;/* CSS link color (red) */
+  /* font-weight: bold; */
+  font-size: 25px;
+}
+
+.seventh a:hover {
   color:navy;
 }
 
